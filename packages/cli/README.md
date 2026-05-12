@@ -2,7 +2,7 @@
 
 A frontend project scaffolding CLI designed for AI-assisted development.
 
-`create-ai-app` helps you quickly create standardized React/Vue frontend projects with built-in architecture conventions, AI coding instructions, workflow documents, and engineering best practices.
+`create-ai-coding-app` helps you quickly create standardized React/Vue frontend projects with built-in architecture conventions, AI coding instructions, workflow documents, and engineering best practices.
 
 It is especially useful when you work with multiple AI coding tools such as Claude Code, GitHub Copilot, Codex, or other agents, and want them to follow the same project structure and coding rules.
 
@@ -26,7 +26,7 @@ It is especially useful when you work with multiple AI coding tools such as Clau
 Run with npx:
 
 ```bash
-npx create-ai-app
+npx create-ai-coding-app
 ```
 
 Then follow the interactive prompts:
@@ -42,7 +42,7 @@ Initialize git repository?
 You can also create a project directly with command options:
 
 ```bash
-npx create-ai-app my-app --template react-vite
+npx create-ai-coding-app my-app --template react-vite
 ```
 
 ## Available Templates
@@ -56,7 +56,7 @@ npx create-ai-app my-app --template react-vite
 ## Example
 
 ```bash
-npx create-ai-app my-app --template react-vite
+npx create-ai-coding-app my-app --template react-vite
 cd my-app
 pnpm install
 pnpm dev
@@ -65,7 +65,7 @@ pnpm dev
 For Vue:
 
 ```bash
-npx create-ai-app my-vue-app --template vue-vite
+npx create-ai-coding-app my-vue-app --template vue-vite
 cd my-vue-app
 pnpm install
 pnpm dev

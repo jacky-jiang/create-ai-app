@@ -1,6 +1,6 @@
 {
   "name": "create-ai-coding-app",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create AI coding friendly frontend projects.",
   "type": "module",
   "bin": {
