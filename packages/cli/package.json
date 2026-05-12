@@ -1,0 +1,33 @@
+{
+  "name": "create-ai-app",
+  "version": "0.1.0",
+  "description": "Create AI coding friendly frontend projects.",
+  "type": "module",
+  "bin": {
+    "create-ai-app": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsup --config tsup.config.ts && node scripts/copy-templates.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"No tests yet\"",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@create-ai-app/ai-rules": "workspace:*",
+    "commander": "^14.0.1",
+    "fs-extra": "^11.3.0",
+    "kolorist": "^1.8.0",
+    "ora": "^8.2.0",
+    "validate-npm-package-name": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}

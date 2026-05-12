@@ -1,0 +1,7 @@
+{
+  "name": "vue-vite",
+  "displayName": "Vue + Vite + TypeScript",
+  "framework": "vue",
+  "stateManager": "pinia",
+  "dataFetching": "axios-only"
+}

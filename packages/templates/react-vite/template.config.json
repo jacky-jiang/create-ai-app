@@ -1,0 +1,7 @@
+{
+  "name": "react-vite",
+  "displayName": "React + Vite + TypeScript",
+  "framework": "react",
+  "stateManager": "zustand",
+  "dataFetching": "tanstack-query"
+}

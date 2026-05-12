@@ -1,0 +1,25 @@
+{
+  "name": "create-ai-app-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean",
+    "create:react": "pnpm --filter create-ai-app dev playground-react --template react-vite --force",
+    "create:vue": "pnpm --filter create-ai-app dev playground-vue --template vue-vite --force"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^22.13.10",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1"
+  },
+  "packageManager": "pnpm@10.6.3"
+}
