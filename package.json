@@ -10,7 +10,9 @@
     "test": "pnpm -r test",
     "clean": "pnpm -r clean",
     "create:react": "pnpm --filter create-ai-app dev playground-react --template react-vite --force",
-    "create:vue": "pnpm --filter create-ai-app dev playground-vue --template vue-vite --force"
+    "create:vue": "pnpm --filter create-ai-app dev playground-vue --template vue-vite --force",
+    "publish:npm": "node scripts/publish-npm.mjs",
+    "publish:npm:dry-run": "node scripts/publish-npm.mjs --dry-run"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
@@ -21,5 +23,5 @@
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.1"
   },
-  "packageManager": "pnpm@10.6.3"
+  "packageManager": "pnpm@9.14.4"
 }
